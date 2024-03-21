@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/ocean.png);
+    /* I added the background image here. */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.logo img {
+    position: relative;
+    float: left;
+    width: 220px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 60px;
+
+
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+ul li::after {
+    /*When hovering over the element of the list, a line appears under it.*/
+    content: '';
+    height: 3px;
+    width: 0;
+    /*line size 0*/
+    background: rgb(100, 157, 192);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+
+
+}
+
+ul li:hover::after {
+    width: 100%;
+    /*line size 100%*/
+}
+
+#current {
+    color: rgb(100, 157, 192);
+    /*the color of the text of the page it is on*/
+}
+
+#littleInfo {
+    font-size: 13px;
+    color: grey;
+
+}
+
+
+.row {
+
+    display: flex;
+    height: 88%;
+
+}
+
+.column {
+    padding: 50px;
+
+    text-align: left;
+}
+
+.card {
+    /*cards design*/
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+/*for activity cards*/
+.cardActivities1 {
+    background-image: url(images/activities1.jpg);
+}
+
+.cardActivities2 {
+    background-image: url(images/activities2.jpg);
+}
+
+.cardActivities3 {
+    background-image: url(images/activities3.jpg);
+}
+
+.cardActivities4 {
+    background-image: url(images/activities4.jpg);
+}
+
+/*for menu cards*/
+.cardMenu1 {
+    background-image: url(images/menu1.jpg);
+}
+
+.cardMenu2 {
+    background-image: url(images/menu2.jpg);
+}
+
+.cardMenu3 {
+    background-image: url(images/menu3.jpg);
+}
+
+.cardMenu4 {
+    background-image: url(images/menu4.jpg);
+}
+
+/*for pool cards*/
+.cardPool1 {
+    background-image: url(images/pool1.jpg);
+}
+
+.cardPool2 {
+    background-image: url(images/pool2.jpg);
+}
+
+.cardPool3 {
+    background-image: url(images/pool3.jpg);
+}
+
+.cardPool4 {
+    background-image: url(images/pool4.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    /*when hovering over the card*/
+}
+
+
+.content {
+    text-decoration: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+
+    font-size: 90px;
+    margin-top: 80px;
+}
+
+#tiny {
+    /*Added id*/
+
+    font-style: italic;
+
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.content p {
+
+    padding-bottom: 50px;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#italic {
+    font-style: italic;
+}
+
+
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #6beed896;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    /*The design of the span tag I use when hovering over the button*/
+    background: rgb(100, 157, 192, 0.460);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+.column p {
+    font-size: 12px;
+}
+
+#bigger {
+    font-size: 16px;
+}
+
+
+
+button a {
+    /*design of buttons with routing*/
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15px;
+    padding: 8px;
+    background-color: rgb(100, 157, 192, 0.301);
+    color: white;
+
+}
