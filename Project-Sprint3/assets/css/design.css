@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/bashkent.webp);
+  /* I added the background image here. */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+
+.logo img {
+  position: relative;
+  float: left;
+  width: 220px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.header ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+
+.header ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  position: relative;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header ul li::after {
+  /*When hovering over the element of the list, a line appears under it.*/
+  content: "";
+  height: 3px;
+  width: 0;
+  /*line size 0*/
+  background: rgb(201, 154, 91);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.4s;
+}
+
+.header ul li:hover::after {
+  width: 100%;
+  /*line size 100%*/
+}
+
+#current {
+  color: rgb(201, 154, 91);
+  /*the color of the text of the page it is on*/
+}
+
+#littleInfo {
+  font-size: 13px;
+  color: grey;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+}
+
+.column {
+  padding: 50px;
+  text-align: left;
+}
+
+.card {
+  /*cards design*/
+  width: 40%;
+  height: 50%;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card-title {
+  color: white;
+}
+
+.card h5 {
+  margin-top: 220px;
+  background-color: #c99a5b;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*for activity cards*/
+.cardActivities1 {
+  background-image: url(../images/activities1.jpg);
+}
+
+.cardActivities2 {
+  background-image: url(../images/activities2.jpg);
+}
+
+.cardActivities3 {
+  background-image: url(../images/activities3.jpg);
+}
+
+.cardActivities4 {
+  background-image: url(../images/activities4.jpg);
+}
+
+/*for menu cards*/
+.cardMenu1 {
+  background-image: url(../images/menu1.jpg);
+}
+
+.cardMenu2 {
+  background-image: url(../images/menu2.jpg);
+}
+
+.cardMenu3 {
+  background-image: url(../images/menu3.jpg);
+}
+
+.cardMenu4 {
+  background-image: url(../images/menu4.jpg);
+}
+
+/*for pool cards*/
+.cardPool1 {
+  background-image: url(../images/pool1.jpg);
+}
+
+.cardPool2 {
+  background-image: url(../images/pool2.jpg);
+}
+
+.cardPool3 {
+  background-image: url(../images/pool3.jpg);
+}
+
+.cardPool4 {
+  background-image: url(../images/pool4.jpg);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  /*when hovering over the card*/
+}
+
+.content {
+  text-decoration: none;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.content h1 {
+  font-size: 90px;
+  margin-top: 80px;
+}
+
+#tiny {
+  /*Added id*/
+
+  font-style: italic;
+
+  font-size: 45px;
+  margin-top: 20px;
+}
+
+.content p {
+  padding-bottom: 50px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#italic {
+  font-style: italic;
+}
+
+button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #6beed896;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+span {
+  /*The design of the span tag I use when hovering over the button*/
+  background: rgb(100, 157, 192, 0.46);
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+button:hover {
+  border: none;
+}
+
+.column p {
+  font-size: 12px;
+}
+
+#bigger {
+  font-size: 16px;
+}
+
+button a {
+  /*design of buttons with routing*/
+
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 15px;
+  padding: 8px;
+  background-color: rgb(100, 157, 192, 0.301);
+  color: white;
+  text-align: center;
+}
+
+/* Vision and Mission section */
+#values {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Konteyner ve kutu stillemeleri */
+.container {
+  display: flex;
+  justify-content: center; /* Merkeze hizalama */
+  gap: 15px; /* Kutular arası boşluk */
+}
+
+.box {
+  flex: 1; /* Her kutuya eşit alan */
+  background: rgba(255, 255, 255, 0.101);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+}
+
+.form-group label {
+  margin-left: 45px;
+  text-align: left;
+  display: inline-block;
+  width: 200px;
+}
+
+.form-group input,
+textarea {
+  flex-basis: 68%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  color: #c99a5b;
+  font-size: 16px;
+}
+
+.form-group ::placeholder {
+  color: white;
+}
+
+.autocomplete {
+  position: absolute; /* Pozisyon sabit, ancak konum ayarları yapılabilir */
+  max-height: 200px; /* Maksimum yükseklik sınırlaması */
+  overflow-y: auto; /* Dikey kaydırma çubuğu etkinleştirme */
+  overflow-x: hidden; /* Yatay kaydırma çubuğunu gizleme */
+  border: 1px solid #ccc; /* Kenarlık tanımlama */
+  background-color: white; /* Arka plan rengi */
+  cursor: pointer; /* Fare imlecini ayarlama */
+  z-index: 1000; /* Z-Index değeri, üstte kalmasını sağlar */
+}
+
+.form-group span {
+  margin-right: 50px;
+  display: inline-block;
+  width: 150;
+  white-space: nowrap;
+  position: absolute;
+  top: 20px;
+  left: 80%;
+  font-size: 14px;
+  color: #c99a5b !important;
+  text-align: left;
+}
+
+#comment-error {
+  margin-right: 250px;
+  position: absolute;
+  bottom: 1px;
+  left: 78%;
+  font-size: 14px;
+  color: #c99a5b !important;
+}
+
+.form-group span i {
+  position: absolute;
+  bottom: 33px;
+  right: 680px;
+  color: #c99a5b !important;
+}
+
+#checkBox-error {
+  font-size: 14px;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  color: #c99a5b !important;
+  left: 84%;
+}
+
+#submit-error {
+  white-space: nowrap;
+  position: absolute;
+  top: 92%;
+  color: red;
+  left: 80%;
+}
+
+.formBox {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+  min-height: 70vh;
+  min-width: 35vw;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  background: rgba(201, 153, 91, 0.151);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-left {
+  flex-basis: 10%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+.column-right {
+  flex-basis: 75%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+.content .details {
+  margin: 14px;
+  text-align: center;
+}
+
+.content .details i {
+  font-size: 30px;
+  color: rgb(153, 99, 120);
+  margin-bottom: 10px;
+}
+
+.content .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.content .details .text-one {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 100;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#checkboxLabel {
+  color: black;
+  white-space: nowrap;
+  margin-left: 245px;
+  text-align: left;
+  width: 400px;
+}
+
+#scrollArea {
+  text-align: center;
+  overflow-y: hidden;
+  margin: 50px auto 0;
+  height: 350px;
+  width: 500px;
+  position: relative;
+}
+#partnerships {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  animation: scrollAnimation 10s linear infinite;
+}
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row-reverse; /* Reverse the order */
+  justify-content: space-around; /* Space out items evenly */
+  align-items: center; /* Align items vertically */
+  padding: 10px;
+}
+
+.ui-state-checked,
+.ui-checkboxradio-icon {
+  visibility: hidden !important;
+}
+
+.buttons,
+.submit-button {
+  color: #c99a5b !important;
+  border-color: #c99a5b !important;
+  transition: all 0.3s;
+}
+
+.buttons:hover,
+.submit-button:hover {
+  background-color: #c99a5b !important;
+  color: white !important;
+}
