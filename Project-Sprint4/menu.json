@@ -1,0 +1,36 @@
+{
+    "cards": [
+        {
+            "card": {
+                "name": "cardMenu1",
+                "extra": "&starf;&starf;&starf;&starf;&star;",
+                "title": "Dessert",
+                "text": "Ah, desserts—the grand finale to any meal, and at our hotel, we take this course seriously, crafting it into a memorable experience for all our guests. Our dessert offerings are a sumptuous blend of tradition, innovation, and pure indulgence, each prepared with the finest ingredients and an eye for artistic presentation. Our dessert menu features a wide array of choices, from classic confections to contemporary creations. Whether you crave the rich, deep flavors of a chocolate ganache tart, the light and airy delight of a mousse, or the refreshing zest of a citrus sorbet, our menu caters to every palate. For those who love to sample a little bit of everything, our dessert buffet is a dream come true. Featuring an array of bite-sized delights, from petit fours to chocolate truffles, the buffet is a feast for both the eyes and the palate. Special live dessert stations, like our flambeed desserts or freshly spun cotton candy, add an element of drama and spectacle to the dining experience."
+            }
+        },
+        {
+            "card": {
+                "name": "cardMenu2",
+                "extra": "&starf;&starf;&starf;&starf;&starf;",
+                "title": "Breakfest",
+                "text": "Breakfast at our hotel is not just the first meal of the day; it's a culinary experience designed to cater to diverse tastes and preferences, ensuring a delightful start for all our guests. We believe that a great day begins with a great breakfast, and we go above and beyond to provide an extensive array of options that feature both local and international flavors. For a personalized touch, our live cooking stations are a popular highlight. Here, guests can have their eggs, omelets, or crepes made to order with their choice of fillings and toppings. Whether you prefer a fluffy omelet with fresh vegetables and cheese or a sweet crepe drizzled with chocolate and fruits, our chefs are ready to prepare it just the way you like. Our breakfast buffet is expansive and inclusive, offering everything from hot dishes to cold cuts. Guests can enjoy a variety of breads, pastries, and cereals, along with fresh fruits, yogurt, and a selection of cheeses and meats. Hot options typically include traditional breakfast items like bacon, sausages, eggs in various styles, pancakes, and waffles, all freshly prepared."
+            }
+        },
+        {
+            "card": {
+                "name": "cardMenu3",
+                "extra": "&starf;&starf;&starf;&starf;&starf;",
+                "title": "Vegetarian and Vegan Options",
+                "text": "At our hotel, we are committed to accommodating the dietary preferences and needs of all our guests, which is why our menus include a wide range of vegetarian and vegan options. From creatively crafted salads and hearty vegetable stews to innovative plant-based entrees and desserts, each dish is prepared using fresh, locally-sourced ingredients to ensure a delicious and nutritious dining experience. Whether you are dining in our main restaurant, lounging by the pool, or enjoying room service, you'll find flavorful vegetarian and vegan dishes designed to satisfy and delight, ensuring that every guest, regardless of their dietary preferences, has a memorable and enjoyable meal."
+            }
+        },
+        {
+            "card": {
+                "name": "cardMenu4",
+                "extra": "&starf;&starf;&starf;&star;&star;",
+                "title": "Diet and Health Menu",
+                "text": "Our hotel takes pride in offering a dedicated Diet and Health Menu, specifically designed for guests who are mindful of their dietary needs or simply prefer healthier dining options. This menu features a variety of dishes that are both nutritious and delicious, emphasizing whole, unprocessed foods. Highlights include gluten-free, sugar-free, and low-calorie options, along with dishes rich in proteins and healthy fats from sources like lean meats, fish, and legumes. Our chefs use innovative cooking techniques and fresh, organic ingredients to ensure that each meal is not only healthy but also flavorful, catering to both health-conscious individuals and those with specific dietary requirements, ensuring that every guest can enjoy a dining experience that is both satisfying and beneficial to their well-being."
+            }
+        }
+    ]
+}

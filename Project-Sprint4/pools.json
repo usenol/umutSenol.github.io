@@ -1,0 +1,36 @@
+{
+    "cards": [
+        {
+            "card": {
+                "name": "cardPool1",
+                "extra": "Maintenance: 9am",
+                "title": "Infinity Pool",
+                "text": "As the proprietor of our distinguished hotel, I'm delighted to introduce our crowning jewel: the infinity pool. Overlooking the serene expanse beyond, this ingeniously designed pool features water overflowing on one or more edges, creating a mesmerizing effect of merging with the skyline or adjacent landscape. Ideal for relaxation and breathtaking photographs, the infinity pool area is equipped with luxurious loungers and nearby amenities. Whether swimming at dawn or dusk, the changing light casts enchanting hues across the water, providing a peaceful and surreal experience. Take a dip in this exquisite pool for a refreshing escape and a visual feast, where the edge stretches into infinity and worries dissolve into the horizon."
+            }
+        },
+        {
+            "card": {
+                "name": "cardPool2",
+                "extra": "Maintenance: 8am",
+                "title": "Heated Pool",
+                "text": "I am pleased to highlight another exceptional feature: our heated pool. Designed for comfort and enjoyment year-round, the pool is maintained at a consistently warm temperature, perfect for a relaxing swim in any season. The warmth is especially soothing during cooler months, making it a favorite for guests seeking muscle relaxation and comfort. Surrounded by a spacious deck with plush loungers, the pool area is ideal for sunbathing or reading in the shade. Our poolside service ensures refreshments and towels are always within reach. Whether you start your day with invigorating laps or end it with a tranquil dip, our heated pool offers a perfect setting for restoration and relaxation amidst our hotel's luxurious surroundings."
+            }
+        },
+        {
+            "card": {
+                "name": "cardPool3",
+                "extra": "Maintenance: 11am",
+                "title": "Jacuzzi/Spa Pool",
+                "text": "As the manager of our prestigious hotel, I’m delighted to introduce our sought-after Jacuzzi/Spa Pool. This luxurious feature offers a soothing retreat with strategically placed jets for therapeutic massages that alleviate muscle tension and improve circulation. The warm water relaxes muscles and reduces stress, enhancing well-being. The serene setting includes comfortable loungers and is adjacent to other spa amenities like a sauna and steam room, offering a complete wellness experience. Perfect for relaxing after a day of sightseeing or indulging in luxury, our Jacuzzi/Spa Pool is designed for your ultimate comfort and relaxation."
+            }
+        },
+        {
+            "card": {
+                "name": "cardPool4",
+                "extra": "Maintenance: 10am",
+                "title": "Children Pool",
+                "text": "At our prestigious hotel, we proudly cater to our youngest guests with our Children's Pool—a safe and fun aquatic playground designed for kids. With suitable water depths and non-slip surfaces, the pool is continuously supervised by professional lifeguards. The area features mini water slides, fountains, and spray jets, offering delightful adventures that stimulate physical activity and imagination. Parents can relax in nearby seating with ample sunshades while watching their children play. We also organize regular poolside activities supervised by our friendly staff, promoting health and social interaction. Our Children's Pool is a hub of joy and laughter, where lasting memories are made. We invite your family to enjoy this perfect blend of fun and safety."
+            }
+        }
+    ]
+}

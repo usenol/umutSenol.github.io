@@ -1,0 +1,36 @@
+{
+    "cards": [
+        {
+            "card": {
+                "name": "cardActivities1",
+                "extra": "TIME: 5pm",
+                "title": "Outdoor Sport Activities",
+                "text": "At our hotel, we're delighted to offer a robust selection of outdoor sport activities designed to keep you energized and connected with nature during your stay. Whether you're looking to maintain your fitness routine or try something new, our range of activities caters to all interests and skill levels.At our hotel, we believe that being active should also be fun. That's why we strive to offer a diverse array of outdoor activities that not only boost your health and wellness but also enhance your overall holiday experience. Join us to energize your body, delight your senses, and make unforgettable memories in the great outdoors"
+            }
+        },
+        {
+            "card": {
+                "name": "cardActivities2",
+                "extra": "TIME: 2pm",
+                "title": "Kids Clubs and Activities",
+                "text": "At our hotel, we understand that a family vacation isn't just about relaxation for the adults, but also about creating unforgettable experiences for our younger guests. That’s why we take great pride in our Kids Club and the array of activities specifically tailored for children of all ages. Our Kids Club is designed to be a paradise for children, a place where they can engage in creative play, learn new skills, and make new friends under the supervision of our caring and professional staff. The club is equipped with a variety of games, educational toys, and craft materials, suitable for children from toddlers to pre-teens. The environment is safe, colorful, and stimulating, fostering an atmosphere where children can feel free and expressive."
+            }
+        },
+        {
+            "card": {
+                "name": "cardActivities3",
+                "extra": "TIME: 11am",
+                "title": "Beach Voleyball",
+                "text": "Our hotel is thrilled to offer beach volleyball as one of our signature activities, providing a fantastic way for guests to engage in some fun and friendly competition while enjoying the beautiful seaside setting. Our beach volleyball court is ideally situated on a stretch of soft, fine sand, bordered by the gentle waves of the sea. This picturesque backdrop not only enhances the game experience but also invites players to dive, jump, and spike the ball with a scenic view. The court is equipped with a high-quality, regulation-size volleyball net and the boundary lines are clearly marked for easy visibility. We provide all necessary equipment, including lightweight, professional-grade volleyballs that are perfect for beach play. Nearby, you'll find seating areas for spectators who prefer to watch and cheer rather than participate. Playing beach volleyball at our hotel is not just about physical exercise; it's a highly social activity. It encourages teamwork and communication, making it an excellent opportunity for bonding with old friends or making new ones. The energetic nature of the game, combined with the refreshing ocean breeze, ensures a delightful experience that energizes the body and uplifts the spirit."
+            }
+        },
+        {
+            "card": {
+                "name": "cardActivities4",
+                "extra": "TIME: 6pm",
+                "title": "Fitness and Health Activities",
+                "text": " At our hotel, we're dedicated to providing our guests with an enriching and invigorating experience, and our Fitness and Health Activities are at the core of this commitment. Designed to enhance your physical well-being and mental relaxation, our range of activities caters to all levels of fitness and interest. Our fitness center is equipped with the latest in exercise technology, including cardio machines, weight-training equipment, and space for free weights and stretching. Open from early morning until late evening, it allows you to maintain your fitness regimen in a modern and inviting environment. We offer a diverse array of group exercise classes led by certified instructors. Popular options include yoga, Pilates, Zumba, and spinning. These classes cater to all levels and are a great way to meet other guests while staying active. Whether you're looking to start your day with energy or unwind in the evening, there's a class to suit your needs. For guests seeking a more personalized fitness experience, our personal trainers are available to help you define and achieve your fitness goals. These sessions are tailored to your specific needs, whether you're looking to lose weight, build strength, or improve overall health."
+            }
+        }
+    ]
+}
